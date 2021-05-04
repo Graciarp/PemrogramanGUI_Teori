@@ -1,16 +1,13 @@
 # PemrogramanGUI_Teori
-Repo ini digunakan untuk pengumpulan tugas pemrograman GUI teori (Gracia Rizka Pasfica
-# TUGAS 1 GUI QT DESIGNER 
+Repo ini digunakan untuk pengumpulan tugas pemrograman GUI teori (Gracia Rizka Pasfica)
+# TUGAS 2 GUI QT DESIGNER 
 Nama  : Gracia Rizka Pasfica
 
 NIM   : 19104064
 
 Kelas : SE03A
 
-1. GUI Calendar
+GUI DATA MAHASISWA
 
-    ![soal no 1](https://user-images.githubusercontent.com/62453385/114409070-4355ca80-9bd4-11eb-8d83-07979ba4e8b4.PNG)
+![Capture](https://user-images.githubusercontent.com/62453385/116973125-44b37800-ace6-11eb-8f3a-86be674be77a.PNG)
 
-3. GUI Style
-
-    ![soal no 2](https://user-images.githubusercontent.com/62453385/114409748-f8888280-9bd4-11eb-9dbc-6bd528ffb0e2.PNG)
