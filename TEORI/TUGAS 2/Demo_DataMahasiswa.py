@@ -12,78 +12,79 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 
 
 class Ui_Frame(object):
+    # Function untuk mencetak frame
     def setupUi(self, Frame):
-        Frame.setObjectName("Frame")
-        Frame.resize(673, 625)
-        Frame.setAutoFillBackground(False)
-        Frame.setStyleSheet("background-color : rgb(220, 212, 255)")
-        Frame.setFrameShape(QtWidgets.QFrame.NoFrame)
-        self.label = QtWidgets.QLabel(Frame)
-        self.label.setGeometry(QtCore.QRect(230, 40, 211, 16))
-        font = QtGui.QFont()
-        font.setFamily("Poppins")
-        font.setPointSize(12)
-        font.setBold(True)
-        font.setWeight(75)
-        self.label.setFont(font)
+        Frame.setObjectName("Frame") # Nama object 
+        Frame.resize(673, 625) # Ukuran frame
+        Frame.setAutoFillBackground(False) 
+        Frame.setStyleSheet("background-color : rgb(220, 212, 255)") # Memberi warna pada background
+        Frame.setFrameShape(QtWidgets.QFrame.NoFrame) 
+        self.label = QtWidgets.QLabel(Frame) # Di dalam frame tersebut mencetak label
+        self.label.setGeometry(QtCore.QRect(230, 40, 211, 16)) 
+        font = QtGui.QFont() # Digunakan untuk mengatur font
+        font.setFamily("Poppins") # Mengatur jenis font
+        font.setPointSize(12) # Mengatur ukuran font
+        font.setBold(True) # Mencetak font tebal
+        font.setWeight(75) 
+        self.label.setFont(font) 
         self.label.setTextFormat(QtCore.Qt.AutoText)
         self.label.setScaledContents(False)
         self.label.setAlignment(QtCore.Qt.AlignCenter)
-        self.label.setObjectName("label")
-        self.frame = QtWidgets.QFrame(Frame)
-        self.frame.setGeometry(QtCore.QRect(50, 90, 571, 231))
+        self.label.setObjectName("label") # Nama object yang digunakan pada tulisan "Data Mahasiswa"
+        self.frame = QtWidgets.QFrame(Frame) # Membuat frame baru di dalam frame
+        self.frame.setGeometry(QtCore.QRect(50, 90, 571, 231)) # Mengatur ukuran frame
         self.frame.setAutoFillBackground(False)
-        self.frame.setStyleSheet("background-color : rgb(255, 255, 255)")
+        self.frame.setStyleSheet("background-color : rgb(255, 255, 255)") # Memberi warna background pada frame
         self.frame.setFrameShape(QtWidgets.QFrame.WinPanel)
         self.frame.setFrameShadow(QtWidgets.QFrame.Raised)
-        self.frame.setObjectName("frame")
-        self.label_2 = QtWidgets.QLabel(Frame)
-        self.label_2.setGeometry(QtCore.QRect(50, 360, 54, 14))
+        self.frame.setObjectName("frame") # Nama object yang digunakan pada frame tampilan data mahasiswa
+        self.label_2 = QtWidgets.QLabel(Frame) # Membuat Label di dalam frame
+        self.label_2.setGeometry(QtCore.QRect(50, 360, 54, 14)) # Mengatur ukuran label
+        font = QtGui.QFont() # Digunakan untuk mengatur jenis font
+        font.setFamily("Poppins") # Mengatur jenis font
+        font.setPointSize(10) # Mengatur ukuran font
+        font.setBold(True) # Memberi cetak tebal pada font
+        font.setWeight(75) 
+        self.label_2.setFont(font) # Mengatur font pada label 2 berdasarkan aturan yang ditentukan sebelumnya
+        self.label_2.setObjectName("label_2") # Nama object untuk tulisan "NIM"
+        self.label_3 = QtWidgets.QLabel(Frame) # Membuat label di dalam frame
+        self.label_3.setGeometry(QtCore.QRect(50, 410, 61, 16)) # Mengatur ukuran label
+        font = QtGui.QFont() 
+        font.setFamily("Poppins") # Mengatur jenis font
+        font.setPointSize(10) # Mengatur ukuran font
+        font.setBold(True) # Memberi cetak tebal pada font
+        font.setWeight(75) 
+        self.label_3.setFont(font) # Mengatur font pada label 3 berdasarkan aturan yang ditentukan sebelumnya
+        self.label_3.setObjectName("label_3") 
+        self.textEdit_2 = QtWidgets.QTextEdit(Frame) # Membuat textEdit di dalam Frame
+        self.textEdit_2.setGeometry(QtCore.QRect(150, 400, 471, 31)) # Mengatur ukuran text Edit
+        self.textEdit_2.setAutoFillBackground(True) 
+        self.textEdit_2.setStyleSheet("background-color : rgb(255, 255, 255)") # Memberi warna putih untuk background textEdit
+        self.textEdit_2.setObjectName("textEdit_2") # Nama object untuk textEdit
+        self.label_4 = QtWidgets.QLabel(Frame) # Membuat Label di dalam frame
+        self.label_4.setGeometry(QtCore.QRect(50, 460, 81, 16)) # Mengatur ukuran label
         font = QtGui.QFont()
-        font.setFamily("Poppins")
-        font.setPointSize(10)
-        font.setBold(True)
-        font.setWeight(75)
-        self.label_2.setFont(font)
-        self.label_2.setObjectName("label_2")
-        self.label_3 = QtWidgets.QLabel(Frame)
-        self.label_3.setGeometry(QtCore.QRect(50, 410, 61, 16))
-        font = QtGui.QFont()
-        font.setFamily("Poppins")
-        font.setPointSize(10)
-        font.setBold(True)
-        font.setWeight(75)
-        self.label_3.setFont(font)
-        self.label_3.setObjectName("label_3")
-        self.textEdit_2 = QtWidgets.QTextEdit(Frame)
-        self.textEdit_2.setGeometry(QtCore.QRect(150, 400, 471, 31))
-        self.textEdit_2.setAutoFillBackground(True)
-        self.textEdit_2.setStyleSheet("background-color : rgb(255, 255, 255)")
-        self.textEdit_2.setObjectName("textEdit_2")
-        self.label_4 = QtWidgets.QLabel(Frame)
-        self.label_4.setGeometry(QtCore.QRect(50, 460, 81, 16))
-        font = QtGui.QFont()
-        font.setFamily("Poppins")
-        font.setPointSize(10)
-        font.setBold(True)
-        font.setWeight(75)
+        font.setFamily("Poppins") # Mengatur jenis font
+        font.setPointSize(10) # Mengatur ukuran font
+        font.setBold(True) # Memberi cetak tebal pada font
+        font.setWeight(75) 
         self.label_4.setFont(font)
-        self.label_4.setObjectName("label_4")
-        self.label_5 = QtWidgets.QLabel(Frame)
-        self.label_5.setGeometry(QtCore.QRect(50, 500, 71, 16))
+        self.label_4.setObjectName("label_4") # Nama object untuk label 4
+        self.label_5 = QtWidgets.QLabel(Frame) # Membuat label di dalam frame
+        self.label_5.setGeometry(QtCore.QRect(50, 500, 71, 16)) # Mengatur ukuran label 
         font = QtGui.QFont()
-        font.setFamily("Poppins")
-        font.setPointSize(10)
-        font.setBold(True)
-        font.setWeight(75)
+        font.setFamily("Poppins") # Mengatur jenis font
+        font.setPointSize(10) # Mengatur ukuran font
+        font.setBold(True) # Memberi cetak tebal pada font
+        font.setWeight(75) 
         self.label_5.setFont(font)
         self.label_5.setObjectName("label_5")
-        self.textEdit_3 = QtWidgets.QTextEdit(Frame)
-        self.textEdit_3.setGeometry(QtCore.QRect(150, 450, 471, 31))
-        self.textEdit_3.setAutoFillBackground(True)
-        self.textEdit_3.setStyleSheet("background-color : rgb(255, 255, 255)")
-        self.textEdit_3.setObjectName("textEdit_3")
-        self.textEdit_4 = QtWidgets.QTextEdit(Frame)
+        self.textEdit_3 = QtWidgets.QTextEdit(Frame) # Membuat textEdit di dalam Frame
+        self.textEdit_3.setGeometry(QtCore.QRect(150, 450, 471, 31)) # Mengatur ukuran textEdit
+        self.textEdit_3.setAutoFillBackground(True) 
+        self.textEdit_3.setStyleSheet("background-color : rgb(255, 255, 255)") # Memberi warna untuk background textEdit
+        self.textEdit_3.setObjectName("textEdit_3") # Memberi nama object untuk TextEdit
+        self.textEdit_4 = QtWidgets.QTextEdit(Frame) 
         self.textEdit_4.setGeometry(QtCore.QRect(150, 500, 471, 31))
         self.textEdit_4.setAutoFillBackground(True)
         self.textEdit_4.setStyleSheet("background-color : rgb(255, 255, 255)")
@@ -93,14 +94,14 @@ class Ui_Frame(object):
         self.textEdit_5.setAutoFillBackground(True)
         self.textEdit_5.setStyleSheet("background-color : rgb(255, 255, 255)")
         self.textEdit_5.setObjectName("textEdit_5")
-        self.pushButton = QtWidgets.QPushButton(Frame)
-        self.pushButton.setGeometry(QtCore.QRect(270, 560, 82, 25))
+        self.pushButton = QtWidgets.QPushButton(Frame) # Membuat pushButton di dalam frame
+        self.pushButton.setGeometry(QtCore.QRect(270, 560, 82, 25)) # Mengatur ukuran button
         font = QtGui.QFont()
-        font.setPointSize(11)
+        font.setPointSize(11) # Mengatur ukuran font di dalam button
         self.pushButton.setFont(font)
         self.pushButton.setAcceptDrops(False)
-        self.pushButton.setStyleSheet("background-color : rgb(195, 195, 195)")
-        self.pushButton.setObjectName("pushButton")
+        self.pushButton.setStyleSheet("background-color : rgb(195, 195, 195)") # Memberi warna pada button
+        self.pushButton.setObjectName("pushButton") 
         self.pushButton_2 = QtWidgets.QPushButton(Frame)
         self.pushButton_2.setGeometry(QtCore.QRect(360, 560, 82, 25))
         font = QtGui.QFont()
@@ -129,24 +130,25 @@ class Ui_Frame(object):
         self.retranslateUi(Frame)
         QtCore.QMetaObject.connectSlotsByName(Frame)
 
+    # Function untuk menjelaskan tentang nama - nama yang terdapat dalam tampilan    
     def retranslateUi(self, Frame):
         _translate = QtCore.QCoreApplication.translate
-        Frame.setWindowTitle(_translate("Frame", "Frame"))
-        self.label.setText(_translate("Frame", "DATA MAHASISWA"))
-        self.label_2.setText(_translate("Frame", "NIM"))
-        self.label_3.setText(_translate("Frame", "NAMA"))
-        self.label_4.setText(_translate("Frame", "JURUSAN"))
-        self.label_5.setText(_translate("Frame", "NO. TELP"))
-        self.pushButton.setText(_translate("Frame", "TAMBAH"))
-        self.pushButton_2.setText(_translate("Frame", "EDIT"))
-        self.pushButton_3.setText(_translate("Frame", "CLEAR"))
-        self.pushButton_4.setText(_translate("Frame", "HAPUS"))
+        Frame.setWindowTitle(_translate("Frame", "Frame")) # Memberi nama frame menjadi "Frame"
+        self.label.setText(_translate("Frame", "DATA MAHASISWA")) # Memberi nama pada object label_1 menjadi "DATA MAHASISWA"
+        self.label_2.setText(_translate("Frame", "NIM")) # Memberi nama pada object label_2 menjadi "NIM"
+        self.label_3.setText(_translate("Frame", "NAMA")) # Memberi nama pada object label_3 menjadi "NAMA"
+        self.label_4.setText(_translate("Frame", "JURUSAN")) # Memberi nama pada object label_4 menjadi "JURUSAN"
+        self.label_5.setText(_translate("Frame", "NO. TELP")) # Memberi nama pada object label_5 menjadi "NO. TELP"
+        self.pushButton.setText(_translate("Frame", "TAMBAH")) # Memberi nama pada object pushButton menjadi "TAMBAH"
+        self.pushButton_2.setText(_translate("Frame", "EDIT")) # Memberi nama pada object pushButton_2 menjadi "EDIT"
+        self.pushButton_3.setText(_translate("Frame", "CLEAR")) # Memberi nama pada object pushButton_3 menjadi "CLEAR"
+        self.pushButton_4.setText(_translate("Frame", "HAPUS")) # Memberi nama pada object pushButton_4 menjadi "HAPUS"
 
-
+# Digunakan untuk menjalankan Demo_DataMahasiswa.py
 if __name__ == "__main__":
     import sys
     app = QtWidgets.QApplication(sys.argv)
-    Frame = QtWidgets.QFrame()
+    Frame = QtWidgets.QFrame() 
     ui = Ui_Frame()
     ui.setupUi(Frame)
     Frame.show()
