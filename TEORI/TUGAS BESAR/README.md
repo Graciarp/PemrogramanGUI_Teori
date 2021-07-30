@@ -18,6 +18,9 @@
      database
      
 # 3. Use Case Diagram
-     ![UseCaseDiagram](https://user-images.githubusercontent.com/62453385/127586011-de8f5597-f7a3-4237-b284-a5864c793516.png)
+     ![UseCaseDiagram](https://user-images.githubusercontent.com/62453385/127586072-6c35b8cc-9e00-4c99-8f1a-3fd1ace510a6.png)
 
-    
+# 4. Database
+     ![Database](https://user-images.githubusercontent.com/62453385/127586089-1389e81e-60ae-4ad4-95e7-7faf1b7c6a22.jpeg)
+
+# 5. Cara Penggunaan
