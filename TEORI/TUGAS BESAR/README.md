@@ -1,25 +1,21 @@
-# PemrogramanGUI_Teori
-Repo ini digunakan untuk pengumpulan tugas pemrograman GUI teori (Gracia Rizka Pasfica)
-# TUGAS 2 GUI QT DESIGNER 
-Nama  : Gracia Rizka Pasfica
+# PENGUMPULAN TUGAS BESAR
+# Kelompok : 3R
+# Anggota :
+ 1. Rizki Rafiif Amaanullah (19104010)
+ 2. Novian Dwi Romadon (19104011)
+ 3. Gracia Rizka Pasfica (19104064)
 
-NIM   : 19104064
 
-Kelas : SE03A
+# 1. Studi Kasus
+     Pengguna membutuhkan sistem yang berisi jadwal yang diinputkan oleh pengguna, 
+     sehingga pengguna tidak menulisnya secara manual tetapi cukup dengan mengetikkan judul, tanggal, dan jam. 
+     Supaya pengguna dapat melihat apakah waktu tersebut sesuai dengan jadwal maka akan ditampilkan waktu yang 
+     sedang berlangsung (waktu sekarang).
 
-GUI DATA MAHASISWA
-
-![Capture](https://user-images.githubusercontent.com/62453385/116973125-44b37800-ace6-11eb-8f3a-86be674be77a.PNG)
-
-Penjelasan :
-1. Tampilan paling dasar menggunakan QFrame
-2. Pada QFrame, stylesheet nya diubah menjadi "background-color : rgb(220, 212, 255) supaya background nya berubah warna
-3. Tulisan "Data Mahasiswa" dicetak menggunakan Label
-4. Untuk mengubah ukuran dan jenis huruf pada tulisan "Data Mahasiswa" maka pada property label pilih font kemudian ubah jenis font menjadi poppins dan font size menjadi 12
-5. Kolom untuk menampilkan data mahasiswa yang telah diinputkan menggunakan QFrame
-6. Supaya kolom tersebut berubah warna menjadi putih maka pada property QFrame pilih stylesheet dan isikan "background-color : rgb(220, 212, 255)
-7. Tulisan "NIM, NAMA, JURUSAN, NO. TELP" dibuat menggunakan Label
-8. Supaya jenis fontnya berubah maka pada property label pilih font dan ubah jenis font dan font size nya
-9. Kolom pengisian NIM, NAMA, JURUSAN, dan NO.TELP dibuat menggunakan Text Edit
-10. Tulisan "TAMBAH, EDIT, CLEAR, HAPUS" dibuat menggunakan Push Button
-11. Untuk memberi nama pada PushButton, pada property pilih text dan isikan "TAMBAH / EDIT / CLEAR / HAPUS"
+# 2. Aplikasi 
+     Aplikasi yang dibuat bernama "Sce-Time". Aplikasi ini terhubung dengan database sehingga pengguna
+     yang menambahkan jadwal baru atau mengedit jadwal lama, seluruh historynya akan tersimpan di dalam
+     database
+     
+# 3. Use Case Diagram
+    
